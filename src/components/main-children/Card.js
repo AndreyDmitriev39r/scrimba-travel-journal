@@ -1,6 +1,13 @@
-function Card() {
+function Card({imageURL}) {
   return (    
-    <h1>Card</h1>
+    <div className="card-container">
+      <figure>
+        <img className="card--photo" src={imageURL}alt="card" />
+      </figure>
+      <div className="text-container">
+        <p>bunch of text</p>
+      </div>
+    </div>
   );
 }
 

@@ -17,7 +17,7 @@
 }
 
 .app {
-  border: 1px solid black;  
+  /* border: 1px solid black;   */
   width: 550px;
 }
 
@@ -46,3 +46,27 @@ nav > p {
 }
 
 /* main */
+
+main {
+  border: 1px solid black;
+  margin-top: 10px; 
+}
+
+/* card */
+
+.card-container {
+  display: flex;
+  gap: 19px;
+  margin-top: 36px;
+  margin-left: 40px;
+}
+
+.card--photo {
+  border-radius: 5px;
+  height: 168px;
+  width: 126px;  
+}
+
+.text-container {
+  align-self: center;
+}

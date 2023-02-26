@@ -1,10 +1,18 @@
 import Card from "./main-children/Card";
 
+import data from "../data.js"
+
 function Main() {
+  const mainContent = data.map((item) => 
+    <Card
+      key={item.id}
+      imageURL={item.imageURL}
+    />
+  )
+  console.log(mainContent);
   return (
-    <main>
-    <h1>Main</h1>
-    <Card />
+    <main>    
+      {mainContent}
     </main>
   );
 }
