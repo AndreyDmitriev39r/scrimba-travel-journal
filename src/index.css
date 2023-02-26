@@ -1,6 +1,48 @@
 /* reset */
+
 *, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Inter, sans-serif;
 }
+
+/* general */
+
+#root {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  border: 1px solid black;  
+  width: 550px;
+}
+
+/* navbar */
+
+nav {
+  height: 55px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: #fff;
+}
+
+nav > i {
+  width: 24px;
+  height: 24px;
+}
+
+nav > p {
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 1.2;
+  letter-spacing: -0.075em;
+}
+
+/* main */

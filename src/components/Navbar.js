@@ -1,7 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+
+
 function Navbar() {
   return (
-    <nav> 
-    <h1>Navbar</h1>
+    <nav>
+      <FontAwesomeIcon icon={faGlobe} />
+      <p>my travel journal.</p>
     </nav>
   );
 }
