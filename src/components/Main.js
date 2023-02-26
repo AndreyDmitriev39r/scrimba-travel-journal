@@ -7,9 +7,13 @@ function Main() {
     <Card
       key={item.id}
       imageURL={item.imageURL}
+      title={item.title}
+      firstDate={item.date.firstDate}
+      lastDate={item.date.secondDate}
+      text={item.text}
     />
   )
-  console.log(mainContent);
+ 
   return (
     <main>    
       {mainContent}
