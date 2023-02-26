@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scrimba-travel-journal/static/css/main.1b902d53.css",
+    "main.js": "/scrimba-travel-journal/static/js/main.bbb238ef.js",
+    "index.html": "/scrimba-travel-journal/index.html",
+    "main.1b902d53.css.map": "/scrimba-travel-journal/static/css/main.1b902d53.css.map",
+    "main.bbb238ef.js.map": "/scrimba-travel-journal/static/js/main.bbb238ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b902d53.css",
+    "static/js/main.bbb238ef.js"
+  ]
+}
